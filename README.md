@@ -10,7 +10,7 @@ This script performs two critical security checks in an Active Directory environ
 1. Identifies any Windows Server 2025 domain controllers in the domain
 2. Checks all organizational units (OUs) to determine if the current user has CreateChild permissions
 
-The combination of these checks is particularly valuable for security professionals conducting privilege escalation investigations or administrators auditing domain permissions.
+The combination of these checks is particularly valuable for security professionals who wish to check for the BadSuccessor dMSA vulnerability or administrators auditing domain permissions.
 
 
 ## Prerequisites
